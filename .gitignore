@@ -2,3 +2,4 @@
 *.txt
 *.log
 *.csv
+/paper_spider/inbox
