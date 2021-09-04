@@ -1,0 +1,46 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.33, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>安全验证</title>
+    
+<script>
+var __vpn_hostname_data = "124.16.81.62";
+var __vpn_protocol_data = "http";
+var __vpn_protocol_host = "http://124.16.81.62";
+var __vpn_app_hostname_data = "77726476706e69737468656265737421fbf34e9f6933665b774687a98c";
+var __vpn_app_protocol_data = "https";
+var __vpn_app_port_data = "";
+var __vpn_js_file = "/wengine-vpn/js/main.js?ver=20210830-09";
+var __vpn_worker_mode = 2;
+var __vpn_host_crypt = true;
+var __vpn_host_crypt_key = "wrdvpnisthebest!";
+var __vpn_host_crypt_iv = "wrdvpnisthebest!";
+</script>
+<script src="/wengine-vpn/js/main.js?ver=20210830-09" charset="utf-8"></script> <script src="/https/77726476706e69737468656265737421fbf34e9f6933665b774687a98c/kdoc/Scripts/jquery-1.7.1.min.js?vpn-7"></script>
+    <script src="/https/77726476706e69737468656265737421fbf34e9f6933665b774687a98c/kdoc/docdown/js/kdoc.validateode.js?vpn-7"></script>
+    <style type="text/css">
+        audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}img{vertical-align:middle}form{margin:0;padding:0}.c_verify-box{width:322px;margin:150px auto 0;padding:29px;border:1px solid #ddd;text-align:justify;font-size:16px;font-family:Arial,Helvetica,"微软雅黑","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;box-shadow:0 0 9px 1px #dcdcdc;height:244px}.c_verify-box .title{margin:0 0 10px;border-left:3px solid #1067e8;padding-left:10px;font-size:20px;line-height:24px;height:24px}.c_verify-box .c_verify-desc{line-height:22px;letter-spacing:1px;margin:0}.c_verify-code{text-align:center;margin:0;padding:0}.c_verify-code dd,.c_verify-code dt{display:block;margin:0;padding:0}.c_verify-code dt img{width:180px;height:50px;border:0}.c_verify-code .tips{font-size:14px;letter-spacing:1px;margin:0 0 10px;color:red}.c_verify-code input#vcode{width:168px;height:30px;padding:0 10px;vertical-align:middle;border:1px solid #ddd}.c_verify-code input#vcode:focus{outline:0;border-color:#1067e8}.c_verify-code .c_btn{text-rendering:optimizelegibility;outline:0;width:90px;height:34px;line-height:32px;padding:0;vertical-align:middle;border:none;background:#1067e8;color:#fff;font-size:15px;cursor:pointer;border:1px solid #ddd;border-left-width:0;letter-spacing:5px}.c_verify-code .c_btn:hover{opacity:.9;outline:0}.c_verify-code .c_btn:focus{outline:0}.c_verify-code .tips{font-size:14px;letter-spacing:1px;margin-bottom:10px}
+    </style>
+</head>
+<body>
+    <div class="c_verify-box">
+        <form method="post" onsubmit="var vpn_return;eval(vpn_rewrite_js((function () { return validate(); }).toString().slice(14, -2), 2));return vpn_return;">
+            <h3 class="title">安全验证</h3>
+            <p class="c_verify-desc">您当前的IP为：124.16.81.102，您的操作过于频繁，为保障帐户的正常使用，请输入验证码：</p>
+            <dl class="c_verify-code">
+                <dt><img id="vImg" src="/https/77726476706e69737468656265737421fbf34e9f6933665b774687a98c/kdoc/request/ValidateCode.ashx?vpn-1&amp;t=1577242936454" alt="验证码" title="点击切换验证码"></dt>
+                <dd>
+                    <p class="tips" id="tips"></p>
+                    <input type="password" id="vcode" name="vcode" maxlength="4"><button class="c_btn" type="submit">提交</button>
+                </dd>
+            </dl>
+        </form>
+    </div>
+
+</body>
+</html>
+
