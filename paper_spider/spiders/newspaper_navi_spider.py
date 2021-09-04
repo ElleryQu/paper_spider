@@ -20,7 +20,7 @@ html_parse解析html页面的文本，转换为txt储存。
 '''
 id = 'np_navi'
 log_flag = True                                 # 是否显示运行信息。
-storage_path = Path(path_join(FILES_STORE, id))          # 爬取结果文件的存储路径。
+storage_path = Path(path_join(FILES_STORE, id)) # 爬取结果文件的存储路径。
 
 year_count = 2                                  # 爬取自2021年来，year_count年的记录。
 
@@ -49,7 +49,7 @@ day_url = "http://124.16.81.62/https/77726476706e69737468656265737421"\
 
 cm = re.compile("<[^>]+>")                      
 
-# 重置csv，加表头。csv操作在pipeline里。
+# 重置csv，加表头。
 with open(path_join(storage_path, 'result.csv', is_file=True), 'w') as f:   
     f.write('uuid,pdf_title,pdf_storage_path,txt_storage_path\n')
 
